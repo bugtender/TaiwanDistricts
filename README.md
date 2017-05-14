@@ -37,8 +37,15 @@ Add below code to your ERB
 
 ```HTML
 <div class='rails-helper city-group'>
-  <%= select_tag :city    , options_for_select( TaiwanDistricts.list(lang='zhtw') ), prompt: '--縣市--', class: ['city-select', 'city-city'], lang: 'zhtw' %>
-  <%= select_tag :district, nil, prompt: '--鄉鎮市區--', class: ['city-select', 'city-district'] %>
+  <%= select_tag :city, 
+    options_for_select( TaiwanDistricts.list(lang='zhtw') ),
+    prompt: '--縣市--',
+    class: ['city-select', 'city-city'], 
+    lang: 'zhtw' %>
+  <%= select_tag :district, 
+    nil, 
+    prompt: '--鄉鎮市區--', 
+    class: ['city-select', 'city-district'] %>
 </div>
 ```
 
@@ -46,12 +53,25 @@ Add below code to your ERB
 
 ```HTML
 <div class='rails-helper city-group'>
-  <%= select_tag :city    , options_for_select( TaiwanDistricts.list(lang='en') ), prompt: '--Cities--', class: ['city-select', 'city-city'], lang: 'en' %>
-  <%= select_tag :district, nil, prompt: '--Districts--', class: ['city-select', 'city-district'] %>
+  <%= select_tag :city, 
+    options_for_select( TaiwanDistricts.list(lang='en') ), 
+    prompt: '--Cities--', 
+    class: ['city-select', 'city-city'], 
+    lang: 'en' %>
+  <%= select_tag :district, 
+    nil, 
+    prompt: '--Districts--', 
+    class: ['city-select', 'city-district'] %>
 </div>
 ```
 
 all selector need "city-select" class. and under the class='city-group' DOM.
+
+## Update
+
+### version 0.1.0
+
+It's works.  And add some test.
 
 ## License
 MIT
