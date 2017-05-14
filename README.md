@@ -1,5 +1,7 @@
 # TaiwanDistricts
 
+[![CircleCI](https://circleci.com/gh/bugtender/TaiwanDistricts.svg?style=svg)](https://circleci.com/gh/bugtender/TaiwanDistricts)
+
 [正體中文](https://github.com/bugtender/TaiwanDistricts/blob/master/README_zh-TW.md)
 
 Easy way to build a selector for Taiwan Cities and Districts.

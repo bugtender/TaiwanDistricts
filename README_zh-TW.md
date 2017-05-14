@@ -1,5 +1,7 @@
 # TaiwanDistricts 台灣地區選單
 
+[![CircleCI](https://circleci.com/gh/bugtender/TaiwanDistricts.svg?style=svg)](https://circleci.com/gh/bugtender/TaiwanDistricts)
+
 好像讓你更方便的做出台灣地區列表
 
 這個 GEM 是基於 [china_city](https://github.com/saberma/china_city) 和 [TaiwanCity](https://github.com/motephyr/taiwan_city) 做出來的，好像會讓你比較更方便但其實沒有比較省工夫的叫出台灣地區選單，再加上中英文切換。
