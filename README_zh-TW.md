@@ -35,8 +35,15 @@ mount TaiwanDistricts::Engine => '/taiwan_districts'
 
 ```HTML
 <div class='rails-helper city-group'>
-  <%= select_tag :city    , options_for_select( TaiwanDistricts.list(lang='zhtw') ), prompt: '--縣市--', class: ['city-select', 'city-city'], lang: 'zhtw' %>
-  <%= select_tag :district, nil, prompt: '--鄉鎮市區--', class: ['city-select', 'city-district'] %>
+  <%= select_tag :city, 
+    options_for_select( TaiwanDistricts.list(lang='zhtw') ), 
+    prompt: '--縣市--', 
+    class: ['city-select', 'city-city'], 
+    lang: 'zhtw' %>
+  <%= select_tag :district, 
+    nil, 
+    prompt: '--鄉鎮市區--', 
+    class: ['city-select', 'city-district'] %>
 </div>
 ```
 
@@ -44,12 +51,25 @@ mount TaiwanDistricts::Engine => '/taiwan_districts'
 
 ```HTML
 <div class='rails-helper city-group'>
-  <%= select_tag :city    , options_for_select( TaiwanDistricts.list(lang='en') ), prompt: '--Cities--', class: ['city-select', 'city-city'], lang: 'en' %>
-  <%= select_tag :district, nil, prompt: '--Districts--', class: ['city-select', 'city-district'] %>
+  <%= select_tag :city, 
+    options_for_select( TaiwanDistricts.list(lang='en') ), 
+    prompt: '--Cities--', 
+    class: ['city-select', 'city-city'], 
+    lang: 'en' %>
+  <%= select_tag :district, 
+    nil, 
+    prompt: '--Districts--', 
+    class: ['city-select', 'city-district'] %>
 </div>
 ```
 
 所有的 select 請依定要加上 `city-select` 這個 class ，然後必須包含在 `city-group` 這個 class 的 DOM 底下
+
+## 更新版本
+
+### version 0.1.0
+
+基本功能實現，補上測試。
 
 ## License
 MIT
