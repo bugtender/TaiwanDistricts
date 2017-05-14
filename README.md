@@ -67,7 +67,13 @@ Add below code to your ERB
 </div>
 ```
 
-all selector need "city-select" class. and under the class='city-group' DOM.
+all selector need `city-select` class. and under the `class='city-group'` DOM.
+
+## Origin districts data
+
+In `db/districts.json`. If you want to remove some districts that useless. You can fork this gem and remove the data. 
+
+The code rule of the city is `custom number` + `000`, and the district is `city custom code` + `zipcode`.
 
 ## Update
 

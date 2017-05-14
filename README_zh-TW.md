@@ -67,6 +67,12 @@ mount TaiwanDistricts::Engine => '/taiwan_districts'
 
 所有的 select 請依定要加上 `city-select` 這個 class ，然後必須包含在 `city-group` 這個 class 的 DOM 底下
 
+## 地區原始資料
+
+在 `db/districts.json`，所有的地區資料都是這邊出來的，你不想要釣魚台的話，可以 fork 一份然後把釣魚台給拿掉就可以了。
+
+編碼如果是縣市的話為 `自訂縣市編號` + `000`，地區為 `所在縣市的自訂編號` + `郵遞區號` 。
+
 ## 更新版本
 
 ### version 0.1.0
