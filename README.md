@@ -1,5 +1,6 @@
 # TaiwanDistricts
 
+[![Build Status](https://travis-ci.org/bugtender/TaiwanDistricts.svg?branch=master)](https://travis-ci.org/bugtender/TaiwanDistricts)
 [![CircleCI](https://circleci.com/gh/bugtender/TaiwanDistricts.svg?style=svg)](https://circleci.com/gh/bugtender/TaiwanDistricts)
 
 [正體中文](https://github.com/bugtender/TaiwanDistricts/blob/master/README_zh-TW.md)
@@ -75,7 +76,11 @@ In `db/districts.json`. If you want to remove some districts that useless. You c
 
 The code rule of the city is `custom number` + `000`, and the district is `city custom code` + `zipcode`.
 
-## Update
+## Changelog
+
+### version 0.1.1
+
+Add TravisCI and auto gem build.
 
 ### version 0.1.0
 

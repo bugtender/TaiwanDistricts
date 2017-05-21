@@ -1,5 +1,6 @@
 # TaiwanDistricts 台灣地區選單
 
+[![Build Status](https://travis-ci.org/bugtender/TaiwanDistricts.svg?branch=master)](https://travis-ci.org/bugtender/TaiwanDistricts)
 [![CircleCI](https://circleci.com/gh/bugtender/TaiwanDistricts.svg?style=svg)](https://circleci.com/gh/bugtender/TaiwanDistricts)
 
 好像讓你更方便的做出台灣地區列表
@@ -74,6 +75,10 @@ mount TaiwanDistricts::Engine => '/taiwan_districts'
 編碼如果是縣市的話為 `自訂縣市編號` + `000`，地區為 `所在縣市的自訂編號` + `郵遞區號` 。
 
 ## 更新版本
+
+### version 0.1.1
+
+新增 TravisCI 跟自動包裝 gem 。
 
 ### version 0.1.0
 
