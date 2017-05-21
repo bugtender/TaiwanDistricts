@@ -22,4 +22,4 @@ load 'rails/tasks/statistics.rake'
 Bundler::GemHelper.install_tasks
 
 RSpec::Core::RakeTask.new(:spec)
-task default: :test
+task default: :spec
