@@ -76,7 +76,7 @@ mount TaiwanDistricts::Engine => '/taiwan_districts'
 
 ## 更新版本
 
-### version 0.1.1
+### version 0.1.2
 
 新增 TravisCI 跟自動包裝 gem 。
 

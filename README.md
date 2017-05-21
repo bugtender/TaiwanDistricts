@@ -78,7 +78,7 @@ The code rule of the city is `custom number` + `000`, and the district is `city 
 
 ## Changelog
 
-### version 0.1.1
+### version 0.1.2
 
 Add TravisCI and auto gem build.
 

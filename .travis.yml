@@ -2,7 +2,7 @@ deploy:
   provider: rubygems
   api_key:
     secure: lVaYbs3t6SyUfRZNqpEMrHPyGcxkmEt0uKKl6AeFrjkDsExIOiPQyysDjSGqTzvNzZ2HNtcTXqFdrobBG1scHAionsWX9kvOsdoAjFBU087TX41ikQOMDnuA8wpnob5FI0WYncwA8RQOq5c0rOE/izJfkBZXi0s7eET/vV4N5xZC7ucY3FmRs/sYx0hfDA+228Rbrohp0JWJy+K573E0Y2AD7vwt3I6SfPfmiTbmt0aK+qGj64DUk5KyzbyM4notww1Ocb9+HXjCTwBUzddwfkb52xH3qhahYhEPfR+CjnL4lIoVEZ402upkjKxY49xb+YRFs9zUGsgeTO6KmnGPKJ4KQMHDoDnI6F8Uxy0lyHM8UKi3AiWYOGToR7RkenPYQMZD+FusU+DMs+kZyj3jrsxWHASr86wQ5tSwq5cX8qwAYRggeNZrhykGaxfu2IJVH3lWx1rk2UlpVSTBrxSFLWgDX1T7WfvYWiYvLzu898QZVcfToBkDivYLtZ7FB1olZr55ytsryqUqnI1yyqryrTaAC1THL61R/hLA6C3/3175XsGfELeX6gcbGy78P7vA2jdbshW4U6kucYmLKq84MYi3NBT0Ga/MK//RRUJzDcPQf9Fs2qeuwzbfPD2K23T/9N9CMysokrp0sYCCQAVxhOk5nwW5TIAMWxekLQ/by/w=
-  gem: TaiwanDistricts
+  gem: taiwan_districts
   on:
     tags: true
     repo: bugtender/TaiwanDistricts
